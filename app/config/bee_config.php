@@ -48,3 +48,20 @@ define('IMAGES', URL.'images/');
 define('JS', URL.'js/');
 define('PLUGINS', URL.'plugins/');
 define('UPLOADS', URL.'uploads/');
+
+// Credenciales para la base de datos
+// DB Local
+define('LDB_ENGINE', 'mysql');
+define('LDB_HOST', 'localhost');
+define('LDB_NAME', 'salamandra');
+define('LDB_USER', 'root');
+define('LDB_PASS', 'Mario7723702');
+define('LDB_CHARSET', 'utf8');
+
+// DB Remota
+define('DB_ENGINE', 'mysql');
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'salamandra');
+define('DB_USER', 'root');
+define('DB_PASS', 'Mario7723702');
+define('DB_CHARSET', 'utf8');
