@@ -26,7 +26,7 @@ define('URL', IS_LOCAL ? "http://127.0.0.1:".PORT.BASEPATH : '___URL EN PRODUCCI
 
 // Rutas de nuestro directorio y archivos
 define('DS', DIRECTORY_SEPARATOR);
-define('ROOT', __DIR__.DS);
+define('ROOT', getcwd().DS);
 
 define('APP', ROOT.'app'.DS);
 define('CLASSES', APP.'classes'.DS);
