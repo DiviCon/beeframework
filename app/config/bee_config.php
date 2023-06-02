@@ -65,3 +65,8 @@ define('DB_NAME', 'salamandra');
 define('DB_USER', 'root');
 define('DB_PASS', 'Mario7723702');
 define('DB_CHARSET', 'utf8');
+
+// Definición del controlador por defecto / método por defecto / controlador de errores por defecto
+define('DEFAULT_CONTROLLER', 'home');
+define('DEFAULT_ERROR_CONTROLLER', 'error');
+define('DEFAULT_METHOD', 'index');
